@@ -11,5 +11,6 @@ This guide assumes you have already [set up an AWS account](http://docs.aws.amaz
 4. After the setup command completes, open the AWS CloudFormation console https://console.aws.amazon.com/cloudformation/home and switch to the region you specified. Select the `AwsServerlessExpressStack` stack, then click the `ApiUrl` value under the __Outputs__ section - this will open a new page with your running API. The API index lists the resources available in the example Express server (`app.js`), along with example `curl` commands.
 
 
-After you make updates to the app, you can publish the changes to AWS using the below command:
+#### After you make updates to the app, you can publish the changes to AWS using the below command:
+
 Run `npm run package-deploy` (Windows users: `npm run win-package-deploy`) to package and deploy your application.
